@@ -105,7 +105,7 @@ h2{
 }
 @media(max-width: 700px){
     .description{
-        font-size: 10px;
+        font-size: 5px;
     }
     .duties{
         font-size: 10px;
