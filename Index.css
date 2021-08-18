@@ -104,10 +104,10 @@ h2{
     justify-content: space-between;
 }
 @media(max-width: 700px){
-    .description{
+    p{
         font-size: 5px;
     }
-    .duties{
+    li{
         font-size: 10px;
     }
 }
