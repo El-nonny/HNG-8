@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    padding: 0;
+    margin: 0px;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    background: rgb(204, 202, 200);
+}
+a{
+    text-decoration: none;
+}
+img{
+    size: 100%;
+}
+.name{
+    color: black;
+    font-size: 50px ;
+    text-align: center;
+}
+.rank{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+.description{
+    font-size: 15px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
+.info{
+    /* display: flex;
+    flex-basis: 25%; */
+    color: black;
+    line-height: 20px;
+    background: rgb(241, 240, 240);
+    padding: 10px 10px;
+    margin: 10px;
+    /* justify-content: space-between; */
+    font-size: 20px;
+    padding-right: 150px;
+}
+.info-1{
+    display: flex;
+    flex-basis: 50%;
+    justify-content:space-between;
+    padding-right: 170px;
+}
+.info-2{
+    display: flex;
+    flex-basis: 50%;
+    justify-content:space-between;
+}
+h2{
+    color: rgb(22, 184, 176);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.expertise{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}  
+.exp{
+    background-color: rgb(22, 184, 176);
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-basis: 25%;
+    padding: 10px;
+}
+.duties{
+    list-style-type: square;
+}
+.skills{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+    
+.skill-1{
+    background-color: rgb(175, 113, 32);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    flex-basis: 15%;
+}
+.company{
+    color: rgb(80, 77, 77);
+    font-size: 20px;
+}
+.work{
+    padding: 10px;
+    margin: 10px;
+}
+.certificate{
+    display: flex;
+    justify-content: space-between;
+}
